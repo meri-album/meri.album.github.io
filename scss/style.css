@@ -1,0 +1,249 @@
+html,
+body,
+ul,
+ol,
+p,
+h3,
+.top-header-info h6,
+button {
+  margin: 0;
+  padding: 0;
+  font-family: Arial Black, sans-serif;
+}
+
+.top-header {
+  width: 100%;
+  height: 100px;
+  background-color: #000;
+}
+
+.top-wrapper {
+  margin-left: 350px;
+}
+
+.top-header-info {
+  margin-left: 80px;
+  width: 400px;
+}
+.top-header-info img {
+  color: #E7BE47;
+  width: 60px;
+  height: 60px;
+  margin-top: 20px;
+}
+.top-header-info p {
+  margin-bottom: 0;
+  color: #E7BE47;
+}
+.top-header-info h3, .top-header-info h6 {
+  color: #fff;
+}
+.top-header-info h6 {
+  text-decoration: underline;
+}
+.top-header-info h6:hover {
+  cursor: pointer;
+}
+
+.author-info {
+  margin-left: 450px;
+}
+
+.name {
+  padding-top: 20px;
+  margin-left: 10px;
+}
+
+.call-back {
+  margin-top: 30px;
+  margin-left: 15px;
+}
+.call-back h6 {
+  font-size: 10px;
+  padding-top: 10px;
+}
+
+.navigation-menu {
+  position: sticky;
+  top: 0;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  background-color: #232523;
+}
+
+.menu-list li {
+  text-align: center;
+  width: 150px;
+  height: 45px;
+  padding-top: 13px;
+  font-size: 14px;
+  text-decoration: none;
+}
+.menu-list li:hover {
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+.menu-list li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.background-section {
+  opacity: 0.8;
+}
+.background-section img {
+  width: 100%;
+  height: 700px;
+  background-color: #232523;
+  height: 650px;
+}
+
+.title-text {
+  color: #fff;
+  font-size: 90px;
+  font-weight: 900;
+  letter-spacing: 10px;
+  position: absolute;
+  top: 250px;
+  left: 500px;
+}
+
+.contries {
+  position: absolute;
+  top: 400px;
+  left: 630px;
+}
+.contries img {
+  height: 45px;
+  width: 45px;
+  margin: 12px 20px;
+}
+.contries p {
+  font-size: 45px;
+  color: #fff;
+}
+
+.btn-default {
+  position: absolute;
+  top: 550px;
+  left: 870px;
+  background-color: #fff;
+  width: 250px;
+  height: 50px;
+}
+
+.about-description {
+  height: 800px;
+  margin-bottom: 50px;
+}
+.about-description img {
+  height: 470px;
+  width: 340px;
+  border-radius: 2%;
+}
+
+.about-author, .about-portfolio, .about-experience {
+  text-align: center;
+  font-size: 45px;
+  padding-top: 75px;
+  color: #444444;
+}
+.about-author:after, .about-portfolio:after, .about-experience:after {
+  content: '';
+  position: absolute;
+  background: #717171;
+  width: 100px;
+  height: 3px;
+  left: 900px;
+}
+
+.author-photo {
+  margin-top: 80px;
+  justify-content: center;
+}
+
+.maria-turko {
+  position: absolute;
+  bottom: -533px;
+  text-align: center;
+  padding-top: 40px;
+  margin-bottom: 10px;
+  width: 340px;
+  height: 100px;
+  font-size: 25px;
+  background: #000;
+  color: #fff;
+  opacity: 0.8;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.description {
+  height: 150px;
+  width: 600px;
+  background-color: #EEF1F1;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.description img {
+  height: 90px;
+  width: 90px;
+  margin-top: 35px;
+  margin-left: 20px;
+}
+.description h5 {
+  font-size: 20px;
+  height: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  text-align: left;
+  margin-bottom: 25px;
+  padding-top: 10px;
+}
+.description p {
+  font-size: 12px;
+  margin-top: 20px;
+  text-align: left;
+  margin-left: 20px;
+  color: grey;
+}
+
+.portpholio-section {
+  height: 950px;
+  background: #F9F9F9;
+}
+
+.about-portfolio {
+  padding-top: 100px;
+}
+
+.experience-section {
+  height: 650px;
+  background: #fff;
+}
+
+.about-experience {
+  padding-top: 80px;
+}
+
+.work-list-wrapper {
+  margin-top: 120px;
+  justify-content: center;
+}
+
+.work-list {
+  height: 200px;
+  width: 300px;
+}
+.work-list img {
+  height: 150px;
+  padding-left: 70px;
+  margin-bottom: 20px;
+}
+
+.text-description {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
